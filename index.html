@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>Dragonrip Player Index</title> 
+		<link media="screen" href="css/topbar.css" type="text/css" rel="stylesheet" />
+		<link media="screen" href="css/filter-bar.css" type="text/css" rel="stylesheet" />
+		<link media="screen" href="css/style.css" type="text/css" rel="stylesheet" />
+		<link media="screen" href="css/footer.css" type="text/css" rel="stylesheet" />
+		<link media="screen" href="css/mobile-style.css" type="text/css" rel="stylesheet" />
+		<link rel="shortcut icon" href="https://chazu.arkku.net/favicon.ico" />	
+
+		<script rel="preload" src='https://kit.fontawesome.com/5ed908a148.js' crossorigin='anonymous'></script>	
+		<meta name="viewport" content="width=device-width, initial-scale=1">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>		
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">		
+	</head>
+
+	<body>
+	
+		<div id="topbar">
+			<div id='topbar-content'>
+				<div id="title"><!--<i class="fa-solid fa-dragon"></i>--><span class='icon'>◈</span>Dragonrip Player Index</div>
+				<div id="player-count-cont">
+					<!--<i class="fa-solid fa-check"></i>-->
+					<span class='player-count'>0</span> players indexed</div>
+			</div>
+		</div>
+
+		
+		<div id="content">	
+
+			<div id='filter-container'>
+				<input type="text" id="filter" onkeyup="filterList()" placeholder="Filter names...">
+				<div id='clear-filter'  onclick="clearFilterBar()">
+					<i class="fa-solid fa-circle-xmark"></i>
+				</div>
+			</div>	
+
+			<div id="list"></div>		
+		</div>
+		
+
+		<script src="player-data.js"></script>
+		<script src="js/footer.js"></script>
+		<script src="js/filter.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

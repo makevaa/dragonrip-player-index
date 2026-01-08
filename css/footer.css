@@ -1,0 +1,19 @@
+#footer {
+	text-align: center;
+	color: #8D9196;
+	font-size: 0.7em;
+    font-family: Roboto Mono, Consolas, monospace;	
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    background-color: #15171a;
+    border-top: 4px double rgb(58, 58, 58);
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.7), inset 0px 5px 5px rgba(0, 0, 0, 0.7), inset 0px -5px 5px rgba(0, 0, 0, 0.7);
+}
+
+#footer > address > a, #footer > div > a {
+	color: #8D9196;
+} 

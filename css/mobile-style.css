@@ -1,0 +1,22 @@
+@media all and (min-width:0px) and (max-width: 768px) {
+    #topbar {
+        justify-content: space-between;
+        padding: 0px 15px 0px 15px;
+    }	
+
+    #topbar > #topbar-content > #title {
+        font-size: 1em;
+    }	
+
+    #content{
+        width: 100%;
+        line-height: 1;
+        margin-top: 55px;
+        padding: 0px 0px 50px 0px;
+    }
+
+    .item {
+		justify-content: space-between;
+        padding: 10px 40px 10px 10px;
+	}
+}

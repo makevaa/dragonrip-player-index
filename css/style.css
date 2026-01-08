@@ -1,0 +1,76 @@
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Hover on items ONLY on desktop view */
+@media all and (min-width:769px) {
+	.item:hover {
+		background-color: rgba(255, 255, 255, 0.1);
+	}
+}
+
+html {
+	background-color: #04101e;
+}
+
+body {	
+	font-family: Roboto Mono, Consolas, monospace;	
+	color: #e6eef4;
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+	width: 100vw;
+}
+
+#content {
+	xborder: 1px solid rgba(255,255,255,0.15);
+	border-radius: 2px;
+	margin: auto;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	width: 30%;
+	max-width: 800px;
+	min-width: 400px;
+	min-height: 1000px;
+	overflow-x: hidden;
+	background-color: rgba(0,0,0,0.5);
+	line-height: 1.4;
+
+	/* border simple     https://i.imgur.com/c7Oeu0F.png'  */
+	/* border ornamental https://i.imgur.com/j7xNFLn.png  */
+	border-image-source: url('https://i.imgur.com/j7xNFLn.png');
+	border-image-slice: 150;
+	border-image-width: 50px;
+	border-image-outset: 0;
+	border-image-repeat: stretch;
+	box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.6), inset 0px 0px 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+#list {
+	width: 100%;
+	padding: 20px 5px 60px 5px;
+}
+
+.item {
+	padding: 0px 60px 0px 60px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-decoration: none;
+}
+
+.item > div {
+	height: 100%;
+	pointer-events: none;
+}
+
+.item > .name {
+	color: #00c867;
+}
+
+.item > .id {
+	color: rgb(77, 77, 77);
+}
