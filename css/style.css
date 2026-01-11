@@ -48,9 +48,63 @@ body {
 	box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.6), inset 0px 0px 10px 10px rgba(0, 0, 0, 0.8);
 }
 
-#list {
+#top-buttons {
+	xborder: 1px solid grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+}
+
+#top-buttons > .button {
+	xborder: 1px solid grey;
+	padding: 5px;
+	cursor: pointer;
+	user-select: none;
+	width: 35%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-image: url('https://i.imgur.com/R03exPr.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-shadow: 0px 0px 10px orange, 0px 0px 5px rgb(160, 160, 160);
+	letter-spacing: 2px;
+	
+	xtransition: all 0.07s;
+	xbox-shadow: 0px 0px 10px 10px rgba(0,0,0,0.99);
+	touch-action: manipulation;
+	filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.9)) brightness(0.5);
+}
+
+#top-buttons > .button:hover {
+	filter: brightness(1);
+}
+
+#top-buttons > .button:active {
+	
+}
+
+#top-buttons > .button.selected {
+	xcolor: lime;
+	background-image: url('https://i.imgur.com/bvYgbqV.png');
+	filter: brightness(1);
+} 
+
+.list {
 	width: 100%;
 	padding: 20px 5px 60px 5px;
+}
+
+.list.hidden {
+	display: none;
 }
 
 .item {
@@ -69,6 +123,14 @@ body {
 
 .item > .name {
 	color: #00c867;
+}
+
+.item > .name.protectors {
+ 	color: acua;
+}
+
+.item > .name.legion {
+	color: darkred;
 }
 
 .item > .id {
