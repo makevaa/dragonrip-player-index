@@ -1,6 +1,5 @@
 /***  clan-data.js ***
-    Syntax: name | id | factionIndex
-        factionIndex: 0 light, 1 dark
+    Syntax: name | id | factionIndex (0 light, 1 dark)
 ***/
 
 
