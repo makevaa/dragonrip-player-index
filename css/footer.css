@@ -3,7 +3,7 @@
 	color: #8D9196;
 	font-size: 0.7em;
     font-family: Roboto Mono, Consolas, monospace;	
-    height: 120px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,3 +17,4 @@
 #footer > address > a, #footer > div > a {
 	color: #8D9196;
 } 
+
