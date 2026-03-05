@@ -23,7 +23,7 @@ Pirate | 78 | 1
 Golden Company | 5 | 0
 The Corrupted | 9 | 1
 Cage | 15 | 0
-
+Il Viggatore Solitario | 82 | 0
 
 
 `;
