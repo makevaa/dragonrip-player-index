@@ -4,11 +4,28 @@
         padding: 0px 15px 0px 15px;
     }	
 
-    #topbar > #topbar-content > #title {
-        font-size: 1em;
+    #topbar > #topbar-content {
+        max-width: 100%;
     }	
 
-    #content{
+
+    #topbar > #topbar-content > #title {
+        font-size: 1em;
+        width: 50%;
+    }	
+
+    #topbar > #topbar-content > #data-cont {
+        width: 50%;
+        font-size: 0.9em;
+        align-items: end;
+    }	
+
+    #topbar > #topbar-content > #data-cont > .row > .num {
+        width: auto;
+    }
+
+
+    #content {
         width: 100%;
         line-height: 1;
         xmargin-top: 55px;

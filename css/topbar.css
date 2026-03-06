@@ -52,10 +52,6 @@
 	align-items: center;
 }	
 
-#topbar > #topbar-content > #title > i {
-	margin-right: 10px;
-}
-
 #topbar > #topbar-content > #title > span.icon {
 	xborder: 1px solid grey;
 	font-size: 1.3em;
@@ -89,7 +85,7 @@
 	align-items: start;
 	font-family: Roboto Mono, Consolas, monospace;	
 	color: #5c5c5c;
-	font-size: 0.9em;
+	
 }
 
 #topbar > #topbar-content > #data-cont > .row {
@@ -100,7 +96,5 @@
 	width: 50px;
 	display: inline-block;
 	text-align: right;
-
-
 }
 
