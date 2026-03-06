@@ -5,313 +5,301 @@
 
 const playerDataRaw = ` 
 
-Beronius | 8949
-paxu | 8889
-Tony | 9166
-Olcary | 7800
-RavagerOne | 9137
-Stanley | 9525
-Zombiebride1492 | 9558
-davetipper | 9420
-lilfirecracker | 3135
-Beast | 1795
-BolshayaPalka | 9459
-GabeAvacado | 9141
-Steak | 9604
-Chronos | 6428
-Snokilla | 9611
-crispybacon | 9356
-Belladonna | 7159
-AZAKARR | 9084
-LostMantis | 9086
-Ysht0la | 9218
-Notbill | 5562
-Plopi | 2245
-AdmiralNeptoon | 4077
-Norolia | 6390
-gwen | 3177
-Trance | 1571
-Hiro | 4564
-Athena | 6243
-Khorker | 4625
-Moist | 955
-Urugrave | 641
-Bizkiteater | 565
-NotSurr | 3164
-Roararack | 7119
-SludgeFactory | 6250
-yummyquik | 2217
-TheAvatar | 9443
-Krodista | 8364
-Razara | 7169
-Woody | 1323
-Sven | 9178
-Riva | 9014
-Dice | 15
-Daell | 5524
-General | 6370
-Vahn | 6549
-Togre | 6965
-Durgion | 9329
-Zamarokian | 5072
-Phartacuss | 8217
-Drewbacca08 | 9457
-Oldbatking | 9574
-bigbadmofo | 9256
-Accuzo | 9267
-Liam | 735
-Ranny | 3054
-OhhBilly | 3851
-Noice | 5488
-Skyrich | 9266
-Serenity | 9419
-PoesieNoire | 3210
-Seren | 3626
-loftwir | 3298
-Kailnahle | 3458
-Rayz | 5884
-Agavan | 2415
-stormchaser | 4011
-Henry | 5274
-Revik | 6706
-smock | 3735
-holdem | 4333
-Shivers | 3413
-lahira | 1806
-DrunkenHermit | 1876
-Soy | 3219
-LePapai | 6859
-Toejam | 1246
-Koolit | 5264
-Krill | 5764
-Sabonete | 3862
-sataninator | 7311
-Lorinthar | 1745
-maslina | 2083
-yomismo | 5425
-Duckabush | 3694
-GeoPapPiano | 2648
-Minichibi | 3708
-AryGato | 3840
-Frog | 3115
-Elsher | 1864
-Resha1437 | 5430
-BeardyWeirdy | 3228
-Exzephel | 4207
-Envy | 2157
-adik | 978
-Zorakh | 3848
-Make | 6832
-Motodragon | 2589
-Pepper | 1406
-bosshogg | 3565
-Ultimus | 7126
-cordi | 3445
-MadCat | 6985
-akroma | 3993
-Finhorn | 8115
-ktx | 299
-Montezelo | 7057
-Superiorsam | 8078
-Harrylongbone | 8585
-blondie | 3271
-Antidievs | 8124
-Defrocked | 3158
-feenix | 8376
-agdnaag | 8642
-Catlord | 8089
-Phage | 8093
-Gruntwork | 8052
-Kelly | 945
-SapheraKurenai | 8299
-Gus | 8732
-OnnRepeat | 6727
-MaCoMb | 7995
-Victor | 7599
-Eizoku | 8438
-spartasteve | 3456
-Chaos | 9126
-GnarlyWolf | 8304
-Logannin | 8545
-Nocte | 8772
-Foozard | 1661
-Odysseus311 | 9055
-BigMinor | 9192
-Kolai | 7884
-Efemeich | 9429
-Neverember | 8356
-Nila | 8943
-fixed | 9341
-Sylaz | 9364
-TheCinKing | 9150
-Xam | 9132
-Haede | 9298
-Fortysix | 8661
-Obsolete | 9295
-SaveTheQueen | 9350
-Morian | 8676
-Dawox | 9428
-PeaceIt | 9072
-FeralSwampWitch | 9153
-Demented | 8302
-MictaZarok | 9292
-Quercus | 9403
-Laker | 9473
-Streethandles | 9468
-LHCdatarun9drop | 9572
-Reaperr | 9617
-Sauerbier | 9211
-Darren | 9054
-LolYouOrphan | 9317
-Augustus | 6944
-Bralgoth | 7056
-Mages | 3807
-toumi | 7959
-Ricochet | 4962
-angelsenvy | 7992
-Stratus | 6102
-Chey | 7101
-SoloCanadian | 9600
-Superjhemp | 9259
-homa | 9508
-HavanaFantosk | 6403
-Qanak | 7936
-bigdavedee | 6178
-evander | 6384
-xerxis | 4126
-jamestowner | 3773
-Arorua | 8838
-Annie | 9235
-Willow | 9238
-Thundurus | 9220
-Firion | 9233
-Zane | 8920
-Cheshu | 9275
-Gymn | 1891
-Redrum | 3186
-HarleyQuinn | 5508
-Wrath | 586
-Drejin | 3508
-alvaro1982 | 4565
-BONUS | 5070
-Tom | 4635
-Dexamethasone | 7177
-nnnnno | 8121
-Hexfire | 8727
-Dan | 6264
-greenigon | 8074
-reconx | 8480
-Undercloak | 7872
-Grandspecial | 7104
-RaulHidalgo | 9263
-bdwhite34 | 9262
-BattleOn | 9113
-AutumnAquari | 9324
-Junker | 9348
-Rpascoal | 9587
-LightningAura | 9633
-Aluzed | 9247
-M47753W | 8986
-Darkhaar | 9545
-LucasSadowClaw | 9577
-Rholandus | 9612
-vegeta36 | 7640
-Vasska | 9253
-StarBreeze | 7952
-Zerkathos | 7059
-Dubh | 7649
-Rimi555 | 4351
-Random69 | 7967
-Mercury | 6251
-ZIKOMIGO | 9639
-Bri | 3338
-Falyn | 9440
-Vladimir | 9640
-Nenah | 9394
-Barmed | 8673
-natisneato | 9645
-Specture | 9646
-Kebb | 5241
-Meikenius | 9648
-Raphis | 9649
-Ratler | 9647
-Brittany | 9651
-Daput | 9460
-EleonDizartha | 7797
-Exine | 9546
-Bazelgeuse | 9656
-Irise | 9657
-Bane | 9658
-Phytheon | 9654
-Geekerhead | 8287
-Arknur | 9270
-aprilyxl | 9663
-DTC | 9662
-DemonRage | 9664
-crissstofff | 9549
-Morrigan | 9668
-Pycratch | 9676
-Warrior | 9677
-Reigok | 9667
-Calanis | 8718
-
-erik | 9712
-Glaucodius | 9707
-Pesty | 9702
-Ruuk | 9698
-jmcventure | 9679
-Dinonugget | 9697
-Zodiac | 9711
-Patiph | 9724
-Alaka | 9730
-Genghisblonde | 9716
-Vathien | 9891
-Maximuz | 7919
-Shoshana | 9894
-Augenstern | 9907
-TyranTzz | 9872
-Bonibella | 9934
-LazySama | 9935
-Shrrgnien | 9969
-Boozoo | 9975
-SirChristoph | 9930
-Eryus | 9997
-Blacknights | 9977
-Qiyoko | 10007
-Anuket | 10004
-studlydolittle | 1822
-Byxx | 3705
-Tainted | 1575
-shademaster | 6642
-Talendus | 4054
-Mokarran | 9973
-Causalitea | 9932
-Zeke | 10033
-Ruronia | 10028
-GOGOGOMEZ | 9957
-Danvash | 9950
-Bonggita | 9868
-IMakeDoors | 9790
-SillyWilly | 10109
-crowatian | 10111
-BobbyWasabi | | 3620184
-Yataai | 10175
-CyanurusK | 10279
-Norri | 10238
-Skabeche | 10301
-Targii | 6185
-Oynque | 3628
-Demetrius | 10122
-Babsy | 10155
-Ghosty | 10262
-Antagonist | 971
-didyouknowthat | 2640
-gtavgod2018 | 4074
-Gortie | 10198
-Salki | 10119
-fulgurbloom | 10027
-Zarzur | 10296
-K4rmaa | 10321
+Beronius | 8949 | 0
+paxu | 8889 | 1
+Tony | 9166 | 1
+Olcary | 7800 | 1
+RavagerOne | 9137 | 1
+Stanley | 9525 | 1
+Zombiebride1492 | 9558 | 1
+davetipper | 9420 | 1
+lilfirecracker | 3135 | 1
+Beast | 1795 | 0
+BolshayaPalka | 9459 | 1
+GabeAvacado | 9141 | 1
+Steak | 9604 | 0
+Chronos | 6428 | 1
+Snokilla | 9611 | 0
+crispybacon | 9356 | 0
+Belladonna | 7159 | 1
+AZAKARR | 9084 | 1
+LostMantis | 9086 | 1
+Ysht0la | 9218 | 1
+Notbill | 5562 | 0
+Plopi | 2245 | 0
+AdmiralNeptoon | 4077 | 0
+Norolia | 6390 | 0
+gwen | 3177 | 1
+Trance | 1571 | 1
+Hiro | 4564 | 1
+Athena | 6243 | 1
+Khorker | 4625 | 1
+Moist | 955 | 1
+Urugrave | 641 | 1
+Bizkiteater | 565 | 1
+NotSurr | 3164 | 1
+Roararack | 7119 | 1
+SludgeFactory | 6250 | 1
+yummyquik | 2217 | 1
+TheAvatar | 9443 | 1
+Krodista | 8364 | 1
+Razara | 7169 | 0
+Woody | 1323 | 0
+Sven | 9178 | 0
+Riva | 9014 | 1
+Dice | 15 | 0
+Daell | 5524 | 0
+General | 6370 | 0
+Vahn | 6549 | 0
+Togre | 6965 | 0
+Durgion | 9329 | 1
+Zamarokian | 5072 | 1
+Phartacuss | 8217 | 1
+Drewbacca08 | 9457 | 1
+Oldbatking | 9574 | 1
+bigbadmofo | 9256 | 0
+Accuzo | 9267 | 0
+Liam | 735 | 0
+Ranny | 3054 | 0
+OhhBilly | 3851 | 0
+Noice | 5488 | 0
+Skyrich | 9266 | 0
+Serenity | 9419 | 0
+PoesieNoire | 3210 | 1
+Seren | 3626 | 1
+loftwir | 3298 | 0
+Kailnahle | 3458 | 0
+Rayz | 5884 | 0
+Agavan | 2415 | 0
+stormchaser | 4011 | 1
+Henry | 5274 | 1
+Revik | 6706 | 1
+smock | 3735 | 0
+holdem | 4333 | 0
+Shivers | 3413 | 0
+lahira | 1806 | 0
+DrunkenHermit | 1876 | 1
+Soy | 3219 | 1
+LePapai | 6859 | 0
+Toejam | 1246 | 1
+Koolit | 5264 | 1
+Krill | 5764 | 1
+Sabonete | 3862 | 1
+sataninator | 7311 | 1
+Lorinthar | 1745 | 0
+maslina | 2083 | 1
+yomismo | 5425 | 1
+Duckabush | 3694 | 0
+GeoPapPiano | 2648 | 1
+Minichibi | 3708 | 0
+AryGato | 3840 | 1
+Frog | 3115 | 1
+Elsher | 1864 | 1
+Resha1437 | 5430 | 0
+BeardyWeirdy | 3228 | 1
+Exzephel | 4207 | 1
+Envy | 2157 | 1
+adik | 978 | 1
+Zorakh | 3848 | 1
+Make | 6832 | 1
+Motodragon | 2589 | 1
+Pepper | 1406 | 0
+bosshogg | 3565 | 1
+Ultimus | 7126 | 0
+cordi | 3445 | 0
+MadCat | 6985 | 1
+akroma | 3993 | 1
+Finhorn | 8115 | 0
+ktx | 299 | 0
+Montezelo | 7057 | 1
+Superiorsam | 8078 | 0
+Harrylongbone | 8585 | 1
+blondie | 3271 | 1
+Antidievs | 8124 | 0
+Defrocked | 3158 | 0
+feenix | 8376 | 0
+agdnaag | 8642 | 0
+Catlord | 8089 | 0
+Phage | 8093 | 0
+Gruntwork | 8052 | 0
+Kelly | 945 | 0
+SapheraKurenai | 8299 | 1
+Gus | 8732 | 0
+OnnRepeat | 6727 | 1
+MaCoMb | 7995 | 1
+Victor | 7599 | 1
+Eizoku | 8438 | 0
+spartasteve | 3456 | 0
+Chaos | 9126 | 0
+GnarlyWolf | 8304 | 0
+Logannin | 8545 | 0
+Nocte | 8772 | 0
+Foozard | 1661 | 0
+Odysseus311 | 9055 | 1
+BigMinor | 9192 | 1
+Kolai | 7884 | 0
+Efemeich | 9429 | 1
+Neverember | 8356 | 1
+Nila | 8943 | 0
+fixed | 9341 | 1
+Sylaz | 9364 | 0
+TheCinKing | 9150 | 1
+Xam | 9132 | 1
+Haede | 9298 | 0
+Fortysix | 8661 | 1
+Obsolete | 9295 | 0
+SaveTheQueen | 9350 | 0
+Morian | 8676 | 1
+Dawox | 9428 | 1
+PeaceIt | 9072 | 0
+FeralSwampWitch | 9153 | 1
+Demented | 8302 | 1
+MictaZarok | 9292 | 1
+Quercus | 9403 | 1
+Laker | 9473 | 0
+Streethandles | 9468 | 1
+LHCdatarun9drop | 9572 | 0
+Reaperr | 9617 | 1
+Sauerbier | 9211 | 1
+Darren | 9054 | 1
+LolYouOrphan | 9317 | 0
+Augustus | 6944 | 0
+Bralgoth | 7056 | 1
+Mages | 3807 | 1
+toumi | 7959 | 1
+Ricochet | 4962 | 1
+angelsenvy | 7992 | 0
+Stratus | 6102 | 0
+Chey | 7101 | 0
+SoloCanadian | 9600 | 0
+Superjhemp | 9259 | 0
+homa | 9508 | 0
+HavanaFantosk | 6403 | 1
+Qanak | 7936 | 1
+bigdavedee | 6178 | 0
+evander | 6384 | 0
+xerxis | 4126 | 0
+jamestowner | 3773 | 1
+Arorua | 8838 | 0
+Annie | 9235 | 0
+Willow | 9238 | 0
+Thundurus | 9220 | 0
+Firion | 9233 | 0
+Zane | 8920 | 0
+Cheshu | 9275 | 1
+Gymn | 1891 | 1
+Redrum | 3186 | 1
+HarleyQuinn | 5508 | 1
+Wrath | 586 | 1
+Drejin | 3508 | 1
+alvaro1982 | 4565 | 1
+BONUS | 5070 | 1
+Tom | 4635 | 1
+Dexamethasone | 7177 | 0
+nnnnno | 8121 | 0
+Hexfire | 8727 | 0
+Dan | 6264 | 0
+greenigon | 8074 | 0
+reconx | 8480 | 0
+Undercloak | 7872 | 1
+Grandspecial | 7104 | 1
+RaulHidalgo | 9263 | 1
+bdwhite34 | 9262 | 0
+BattleOn | 9113 | 1
+AutumnAquari | 9324 | 1
+Junker | 9348 | 0
+Rpascoal | 9587 | 0
+LightningAura | 9633 | 1
+Aluzed | 9247 | 0
+M47753W | 8986 | 1
+Darkhaar | 9545 | 1
+LucasSadowClaw | 9577 | 0
+Rholandus | 9612 | 0
+vegeta36 | 7640 | 0
+Vasska | 9253 | 0
+StarBreeze | 7952 | 1
+Zerkathos | 7059 | 1
+Dubh | 7649 | 0
+Rimi555 | 4351 | 0
+Random69 | 7967 | 0
+Mercury | 6251 | 1
+ZIKOMIGO | 9639 | 0
+Bri | 3338 | 1
+Falyn | 9440 | 1
+Vladimir | 9640 | 1
+Nenah | 9394 | 0
+Barmed | 8673 | 0
+Kebb | 5241 | 1
+Ratler | 9647 | 0
+Daput | 9460 | 1
+EleonDizartha | 7797 | 1
+Exine | 9546 | 0
+Bazelgeuse | 9656 | 1
+Bane | 9658 | 1
+Phytheon | 9654 | 1
+Geekerhead | 8287 | 0
+Arknur | 9270 | 0
+DemonRage | 9664 | 1
+crissstofff | 9549 | 0
+Morrigan | 9668 | 1
+Warrior | 9677 | 0
+Reigok | 9667 | 0
+Calanis | 8718 | 0
+erik | 9712 | 1
+Glaucodius | 9707 | 0
+Pesty | 9702 | 1
+Ruuk | 9698 | 0
+jmcventure | 9679 | 1
+Zodiac | 9711 | 0
+Patiph | 9724 | 0
+Alaka | 9730 | 1
+Genghisblonde | 9716 | 0
+Vathien | 9891 | 0
+Maximuz | 7919 | 0
+Shoshana | 9894 | 1
+Augenstern | 9907 | 0
+TyranTzz | 9872 | 0
+Bonibella | 9934 | 1
+LazySama | 9935 | 1
+Shrrgnien | 9969 | 1
+Boozoo | 9975 | 1
+SirChristoph | 9930 | 0
+Eryus | 9997 | 1
+Blacknights | 9977 | 1
+Qiyoko | 10007 | 1
+Anuket | 10004 | 1
+studlydolittle | 1822 | 1
+Byxx | 3705 | 1
+Tainted | 1575 | 0
+shademaster | 6642 | 0
+Talendus | 4054 | 0
+Mokarran | 9973 | 0
+Causalitea | 9932 | 0
+Zeke | 10033 | 0
+Ruronia | 10028 | 1
+GOGOGOMEZ | 9957 | 0
+Danvash | 9950 | 0
+Bonggita | 9868 | 1
+IMakeDoors | 9790 | 1
+SillyWilly | 10109 | 1
+crowatian | 10111 | 0
+Yataai | 10175 | 1
+CyanurusK | 10279 | 0
+Norri | 10238 | 1
+Skabeche | 10301 | 1
+Targii | 6185 | 0
+Oynque | 3628 | 1
+Demetrius | 10122 | 0
+Babsy | 10155 | 0
+Ghosty | 10262 | 1
+Antagonist | 971 | 1
+didyouknowthat | 2640 | 0
+gtavgod2018 | 4074 | 1
+Gortie | 10198 | 0
+Salki | 10119 | 1
+fulgurbloom | 10027 | 1
+Zarzur | 10296 | 0
+K4rmaa | 10321 | 1
 
 
 

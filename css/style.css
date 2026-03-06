@@ -159,6 +159,10 @@ body {
 	color: darkred;
 }
 
+.item > .name.faction-not-set {
+	color: rgb(128, 128, 128);
+}
+
 .item > .id {
 	color: rgb(77, 77, 77);
 }

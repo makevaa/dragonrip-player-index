@@ -12,9 +12,10 @@ if (viewportW < mobileViewTreshold) {
 
 
 class Player { 
-	constructor(name, id) {
+	constructor(name, id, factionIndex) {
 		this.name = name;
 		this.id = id; 
+		this.factionIndex = factionIndex;
 		this.url = `https://dragonrip.com/game/who.php?wr=${id}`;
 	}
 }
@@ -49,7 +50,12 @@ const processRawDataPlayer = str => {
 		const name = data[0].trim();
 		const id = data[1].trim();
 
-		const player = new Player(name, id);
+		let factionIndex = -1;
+		if (data[2] !== undefined && data[2] !== null) {
+			factionIndex = data[2].trim()
+		}
+
+		const player = new Player(name, id, factionIndex);
 		players.push(player);
 	} 	
 
@@ -135,6 +141,15 @@ const buildItems = () => {
 		const name = document.createElement('div');
 		name.classList.add('name');
 		name.innerText = player.name;
+
+		let factionColorClass = 'faction-not-set'
+		if (player.factionIndex === 0 || player.factionIndex === '0') {
+			factionColorClass = 'protectors';
+		} else if (player.factionIndex === 1 || player.factionIndex === '1') {
+			factionColorClass = 'legion';
+		}
+
+		name.classList.add(factionColorClass);
 
 		const id = document.createElement('div');
 		id.classList.add('id');
