@@ -89,7 +89,7 @@ body {
 }
 
 #top-buttons > .button:hover {
-	filter: brightness(1);
+	filter: brightness(0.8);
 }
 
 #top-buttons > .button:active {
