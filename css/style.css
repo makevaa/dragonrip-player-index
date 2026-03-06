@@ -105,15 +105,8 @@ body {
 .list {
 	width: 100%;
 	height: calc(96% - 100px);
-	xpadding: 20px 0px 60px 5px;
 	overflow-y: scroll;
-
-	xflex: 1;
-	xborder-top: 1px solid grey;
-	xmargin: 0px 100px 0px 0px;
 	padding: 0px 0px 100px 5px;
-
-
 }
 
 .list::after {
