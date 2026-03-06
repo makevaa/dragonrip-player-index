@@ -78,21 +78,29 @@
 	padding-bottom: 3px;
 }
 
-#topbar > #topbar-content > #player-count-cont {
+#topbar > #topbar-content > #data-cont {
 	height: 100%;
+	xborder: 1px solid grey;
 	color: grey;
 	padding: 5px;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items: start;
 	font-family: Roboto Mono, Consolas, monospace;	
 	color: #5c5c5c;
+	font-size: 0.9em;
 }
 
-#topbar > #topbar-content > #player-count-cont > i {
-	margin-right: 5px;
+#topbar > #topbar-content > #data-cont > .row {
+
 }
 
-#topbar > #topbar-content > #player-count-cont > .player-count {
-	margin-right: 10px;
+#topbar > #topbar-content > #data-cont > .row > .num {
+	width: 50px;
+	display: inline-block;
+	text-align: right;
+
+
 }
+

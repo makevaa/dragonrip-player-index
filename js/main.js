@@ -89,9 +89,11 @@ const processRawDataClan = str => {
 }
 
 
-const setPlayerCount = () => {
-	const target = document.querySelector('#player-count-cont > .player-count');
-	target.innerHTML = `${players.length}`;
+const setTopbarData = () => {
+	const targetPlayers = document.querySelector('#topbar-content > #data-cont > .row.players > .num');
+	const targetClans = document.querySelector('#topbar-content > #data-cont > .row.clans > .num');
+	targetPlayers.innerHTML = `${players.length}`;
+	targetClans.innerHTML = `${clans.length}`;
 }
 
 const capitalize = str => {
@@ -244,7 +246,7 @@ processRawDataClan(clanDataRaw);
 //log(players);
 
 buildItems();
-setPlayerCount();
+setTopbarData();
 setListeners();
 
 showList('player');
