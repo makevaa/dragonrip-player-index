@@ -25,5 +25,6 @@ The Corrupted | 9 | 1
 Cage | 15 | 0
 Il Viggatore Solitario | 82 | 1
 The Gaming House | 71 | 1
+Explorers Camp | 77 | 0
 
 `;

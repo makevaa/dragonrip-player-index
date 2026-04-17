@@ -300,12 +300,26 @@ Salki | 10119 | 1
 fulgurbloom | 10027 | 1
 Zarzur | 10296 | 0
 K4rmaa | 10321 | 1
-
 Dinonuggett | 10253 | 0
 Limit | 10205 | 0
 draymen | 5805 | 0
 DarkManiak | 3195 | 1
 
+Naja | 10351 | 1
+Engram | 10395 | 0
+OathbreakerKyle | 10427 | 0
+SueShi | 10445 | 0
+OldWood | 10331 | 0
+Ladygrim | 10425 | 0
+FigJam | 10487 | 0
+Hobok3n | 10435 | 0
+Samarilion | 10374 | 0
+KoalaK | 10475 | 1
+Deeyoo | 10497 | 1
+geyesborg | 10502 | 0
+ErkyTimbers | 10511 | 0
+Hasasin | 10484 | 1
+mog | 10463 | 1
 
 
 
